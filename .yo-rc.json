@@ -1,0 +1,25 @@
+{
+  "generator-jhipster": {
+    "jhipsterVersion": "3.4.2",
+    "baseName": "service",
+    "packageName": "com.tcl.user",
+    "packageFolder": "com/tcl/user",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "hibernateCache": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "no",
+    "buildTool": "gradle",
+    "jwtSecretKey": "777056d1c7139c9ac8bc7d60b5e85bd8a20a2731",
+    "enableTranslation": false,
+    "applicationType": "microservice",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "jhiPrefix": "jhi",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
