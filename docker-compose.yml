@@ -1,9 +1,0 @@
-db:
-    image: mysql:5.7.12
-    environment:
-        - MYSQL_USER=root
-        - MYSQL_ALLOW_EMPTY_PASSWORD=yes
-        - MYSQL_DATABASE=userdataservice
-    ports:
-        - 3306:3306
-
